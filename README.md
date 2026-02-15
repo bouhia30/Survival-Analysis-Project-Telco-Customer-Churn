@@ -64,49 +64,6 @@ This project applies survival analysis techniques to the Telco Customer Churn da
 - Statistical modeling and visualization libraries
 - Data manipulation tools
 
-## Project Structure
-
-```
-├── data/
-│   └── telco_customer_churn.csv
-├── scripts/
-│   ├── 01_data_preparation.R
-│   ├── 02_exploratory_analysis.R
-│   ├── 03_survival_analysis.R
-│   └── 04_cox_regression.R
-├── outputs/
-│   ├── figures/
-│   └── results/
-├── report/
-│   └── Survival_Analysis_Report.pdf
-└── README.md
-```
-
-## Getting Started
-
-### Prerequisites
-
-```r
-# Required R packages
-install.packages(c("survival", "survminer", "ggplot2", "dplyr", "tidyr"))
-```
-
-### Running the Analysis
-
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/telco-churn-survival-analysis.git
-cd telco-churn-survival-analysis
-```
-
-2. Load the data and run analysis scripts in order
-```r
-source("scripts/01_data_preparation.R")
-source("scripts/02_exploratory_analysis.R")
-source("scripts/03_survival_analysis.R")
-source("scripts/04_cox_regression.R")
-```
-
 ## Business Recommendations
 
 Based on our analysis, telecommunications companies should:
@@ -135,12 +92,7 @@ This project is available under the MIT License.
 ## References
 
 - IBM Telco Customer Churn Dataset
-- Kaplan, E. L., & Meier, P. (1958). Nonparametric estimation from incomplete observations
-- Cox, D. R. (1972). Regression models and life-tables
 
-## Contact
-
-For questions or collaboration opportunities, please open an issue in this repository.
 
 ---
 
